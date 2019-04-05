@@ -18,3 +18,37 @@ Untracked files:
 nothing added to commit but untracked files present
 ]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git add .
 ]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git add .commit -am "initial"
+[master (root-commit) 6241214] initial
+ 19 files changed, 955 insertions(+)
+ create mode 100644 .Rproj.user/6E01DCF5/console06/8CC2B47E
+ create mode 100644 .Rproj.user/6E01DCF5/console06/8CC2B47E.env
+ create mode 100644 .Rproj.user/6E01DCF5/console06/INDEX001
+ create mode 100644 .Rproj.user/6E01DCF5/sources/prop/60E64987
+ create mode 100644 .Rproj.user/6E01DCF5/sources/prop/INDEX
+ create mode 100644 .Rproj.user/6E01DCF5/sources/s-818F220F/32F37E20
+ create mode 100644 .Rproj.user/6E01DCF5/sources/s-818F220F/32F37E20-contents
+ create mode 100644 .Rproj.user/6E01DCF5/sources/s-818F220F/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/5FAEDF5-saa-2019-Park-and-Marwick/1/6E01DCF5818F220F/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/5FAEDF5-saa-2019-Park-and-Marwick/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 figures/age-by-density.png
+ create mode 100644 figures/artefact-types.png
+ create mode 100644 figures/assemblages-expedient-curated.png
+ create mode 100644 figures/raw-materials.png
+ create mode 100644 figures/site-elevation.png
+ create mode 100755 saa-2019-Park-and-Marwick.Rmd
+ create mode 100644 saa-2019-Park-and-Marwick.Rproj
+]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git commit -am "initial"add .[Kcommit -am "initial"init[Kpush -u origin masterremote add origin https://github.comm/benmarwick/saa-2019-Park-and-Marwick.git
+]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git remote add origin https://github.comm/benmarwick/saa-2019-Park-and-Marwick.git[A[C[C[C[C[C[C[C[15Pcommit -am "initial"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd .[Kcommit -am "initial"init[Kpush -u origin master
+Enumerating objects: 30, done.
+Counting objects:   3% (1/30)   Counting objects:   6% (2/30)   Counting objects:  10% (3/30)   Counting objects:  13% (4/30)   Counting objects:  16% (5/30)   Counting objects:  20% (6/30)   Counting objects:  23% (7/30)   Counting objects:  26% (8/30)   Counting objects:  30% (9/30)   Counting objects:  33% (10/30)   Counting objects:  36% (11/30)   Counting objects:  40% (12/30)   Counting objects:  43% (13/30)   Counting objects:  46% (14/30)   Counting objects:  50% (15/30)   Counting objects:  53% (16/30)   Counting objects:  56% (17/30)   Counting objects:  60% (18/30)   Counting objects:  63% (19/30)   Counting objects:  66% (20/30)   Counting objects:  70% (21/30)   Counting objects:  73% (22/30)   Counting objects:  76% (23/30)   Counting objects:  80% (24/30)   Counting objects:  83% (25/30)   Counting objects:  86% (26/30)   Counting objects:  90% (27/30)   Counting objects:  93% (28/30)   Counting objects:  96% (29/30)   Counting objects: 100% (30/30)   Counting objects: 100% (30/30), done.
+Delta compression using up to 4 threads
+Compressing objects:   3% (1/26)   Compressing objects:   7% (2/26)   Compressing objects:  11% (3/26)   Compressing objects:  15% (4/26)   Compressing objects:  19% (5/26)   Compressing objects:  23% (6/26)   Compressing objects:  26% (7/26)   Compressing objects:  30% (8/26)   Compressing objects:  34% (9/26)   Compressing objects:  38% (10/26)   Compressing objects:  42% (11/26)   Compressing objects:  46% (12/26)   Compressing objects:  50% (13/26)   Compressing objects:  53% (14/26)   Compressing objects:  57% (15/26)   Compressing objects:  61% (16/26)   Compressing objects:  65% (17/26)   Compressing objects:  69% (18/26)   Compressing objects:  73% (19/26)   Compressing objects:  76% (20/26)   Compressing objects:  80% (21/26)   Compressing objects:  84% (22/26)   Compressing objects:  88% (23/26)   Compressing objects:  92% (24/26)   Compressing objects:  96% (25/26)   Compressing objects: 100% (26/26)   Compressing objects: 100% (26/26), done.
+Writing objects:   3% (1/30)   Writing objects:   6% (2/30)   Writing objects:  10% (3/30)   Writing objects:  13% (4/30)   Writing objects:  16% (5/30)   Writing objects:  20% (6/30)   Writing objects:  23% (7/30)   Writing objects:  26% (8/30)   Writing objects:  30% (9/30)   Writing objects:  33% (10/30)   Writing objects:  36% (11/30)   Writing objects:  40% (12/30)   Writing objects:  43% (13/30)   Writing objects:  46% (14/30)   Writing objects:  50% (15/30)   Writing objects:  53% (16/30)   Writing objects:  56% (17/30)   Writing objects:  60% (18/30)   Writing objects:  63% (19/30)   Writing objects:  66% (20/30)   Writing objects:  70% (21/30)   Writing objects:  73% (22/30)   Writing objects:  76% (23/30)   Writing objects:  80% (24/30)   Writing objects:  83% (25/30)   Writing objects:  86% (26/30)   Writing objects:  90% (27/30)   Writing objects:  93% (28/30)   Writing objects:  93% (28/30), 1.13 MiB | 871.00 KiB/s   Writing objects:  96% (29/30), 1.13 MiB | 871.00 KiB/s   Writing objects: 100% (30/30), 1.13 MiB | 871.00 KiB/s   Writing objects: 100% (30/30), 1.24 MiB | 960.00 KiB/s, done.
+Total 30 (delta 0), reused 0 (delta 0)
+To https://github.com/benmarwick/saa-2019-Park-and-Marwick.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ 

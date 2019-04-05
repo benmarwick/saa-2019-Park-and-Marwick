@@ -1,0 +1,18 @@
+Package: saa2019ParkandMarwick
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ben",
+           family = "Marwick",
+           role = c("aut", "cre"),
+           email = "benmarwick@gmail.com")
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Imports:
+  tidyverse
+  glue
+  ggrepel
+  rcarbon
+  googlesheets
+Encoding: UTF-8
+LazyData: true
