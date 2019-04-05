@@ -1,0 +1,20 @@
+]0;~/Desktop/saa-2019-Park-and-Marwick[?1034hBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git remote add origin https://github.co m/benmarwick/saa-2019-Park-and-Marwick.git
+fatal: not a git repository (or any of the parent directories): .git
+]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git push -u origin master
+fatal: not a git repository (or any of the parent directories): .git
+]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git init
+Initialized empty Git repository in /Users/bmarwick/Desktop/saa-2019-Park-and-Marwick/.git/
+]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git commit -am "initial"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.Rproj.user/[m
+	[31mfigures/[m
+	[31msaa-2019-Park-and-Marwick.Rmd[m
+	[31msaa-2019-Park-and-Marwick.Rproj[m
+
+nothing added to commit but untracked files present
+]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git add .
+]0;~/Desktop/saa-2019-Park-and-MarwickBens-MBP:saa-2019-Park-and-Marwick bmarwick$ git add .commit -am "initial"
