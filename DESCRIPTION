@@ -8,10 +8,10 @@ Authors@R:
            email = "benmarwick@gmail.com")
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
-Imports: tidyverse
-  glue
-  ggrepel
-  rcarbon
+Imports: tidyverse,
+  glue,
+  ggrepel,
+  rcarbon,
   googlesheets
 Encoding: UTF-8
 LazyData: true
