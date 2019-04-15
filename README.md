@@ -1,5 +1,5 @@
 # saa-2019-Park-and-Marwick
-[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/benmarwick/saa-2019-Park-and-Marwick/master?urlpath=rstudio)
+[![Binder](http://mybinder.org/badge_logo.svg)](https://beta.mybinder.org/v2/gh/benmarwick/saa-2019-Park-and-Marwick/master?urlpath=rstudio)
 
 This repository contains the code to produce all of the plots on our poster presented at the 2019 Society of American Archaeology annual meeting: "Change in Mobility and Site Occupation during the Late Pleistocene in Korea". This repository was archived at the time of the SAA meetings at <http://doi.org/10.17605/OSF.IO/YAGD2>
 
