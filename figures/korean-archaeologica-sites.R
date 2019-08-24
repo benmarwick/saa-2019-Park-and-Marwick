@@ -1,6 +1,6 @@
 
 
-korean_archaeological_sites <- readxl::read_excel("korean-archaeologica-sites.xlsx")
+korean_archaeological_sites <- readxl::read_excel("figures/korean-archaeologica-sites.xlsx")
 
 library(tidyverse)
 
@@ -45,13 +45,13 @@ coords <-
 
 # quick map
 
-
 library(ggmap)
 
 # bounding box
 # 39.534214, 124.159154 ... 39.657415, 129.138604
 # 33.694662, 123.491142 ... 34.338454, 130.569658
 
+# download the map tiles, this requires an internet connection, and may take a few minutes...
 map <- 
 	get_stamenmap(bbox = c(left = 123, 
 												 bottom = 33, 
@@ -59,20 +59,48 @@ map <-
 												 top = 39),
 								zoom = 10)
 
+# with ggrepel
 library(ggrepel)
+library(maptools)
+# remotes::install_github('3wen/legendMap')
 ggmap(map)  +
 	geom_point(data = coords,
 						 aes(long_dd ,
 						 		lat_dd), 
 						 colour = "red",
 						 size = 2) +
-	geom_label_repel(data = coords,
+	geom_text_repel(data = coords,
 									aes(long_dd ,
 											lat_dd,
 											label = site_name),
-									size = 2) 
+									size = 3) +
+  legendMap::scale_bar(
+    # edit these numbers to select a suitable location
+    # for the scale bar where it does not cover
+    # important details on the map
+    lon = 123.5,
+    lat = 33.5,
+    # distance of one section of scale bar, in km
+    distance_lon = 100,
+    # height of the scale bar, in km
+    distance_lat = 10,
+    # distance between scale bar and units, in km
+    distance_legend = 25,
+    # units of scale bar
+    dist_unit = "km",
+    # add the north arrow
+    orientation = TRUE,
+    # length of N arrow, in km
+    arrow_length = 5,
+    # distance between scale bar & base of N arrow, in km
+    arrow_distance = 50,
+    # size of letter 'N' on N arrow, in km
+    arrow_north_size = 5) +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank())
 
-ggsave("figures/basic-site-map.png", h = 7, w = 7)
+
+  ggsave("figures/basic-site-map.png", h = 7, w = 7)
 
 # pick points off this map with korea_boundary <- locator()
 
